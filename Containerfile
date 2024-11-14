@@ -11,7 +11,7 @@ WORKDIR /projects
 COPY . .
 
 # Install any dependencies
-RUN python3 -m pip install -r requirements.txt
+# RUN python3 -m pip install -r requirements.txt
 
 # Specify the command to run on container start
 CMD [ "python", "./app.py" ]
