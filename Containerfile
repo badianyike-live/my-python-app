@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel9/python-312@sha256:d1244378f7ab72506d8d91cadebbf94c893c2828300f9d44aee4678efec62db9
+FROM registry.redhat.io/rhel9/python-312@sha256:258610a5d3dd6cc5badc222a7052ed3a5f11cf837f1f2a0fb3fcc13f736ae03a
 
 # By default, listen on port 8081
 EXPOSE 8081/tcp
